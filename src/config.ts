@@ -171,14 +171,14 @@ export default {
       name: "Penda xl",
       url: "https://github.com/Ashzzzy",
       desc: "Developer mod, artist, content creator.",
-      avatar: "assets/avatar.webp",
+      avatar: "https://i.imgur.com/HK1HKzl.png",
     },
 
     {
       name: "Zetsukae",
       url: "https://github.com/Zetsukae",
       desc: "Developer, artist, content creator.",
-      avatar: "assets/zetsukae.webp",
+      avatar: "https://i.imgur.com/AztYr09.png",
     },
   ],
 
