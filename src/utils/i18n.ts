@@ -3,12 +3,13 @@ import en from "../languages/en";
 import ja from "../languages/ja";
 import zhCn from "../languages/zh-cn";
 import zhTw from "../languages/zh-tw";
+import fr from "../languages/fr";
 
 import { SITE } from "./config";
 
 const language = SITE.language.toLowerCase();
 
-const languages = ["en", "ja", "zh-cn", "zh-tw"];
+const languages = ["en", "ja", "zh-cn", "zh-tw", "fr"];
 
 let i18n: Record<string, any> = {};
 
@@ -17,6 +18,7 @@ const langMap: Record<string, any> = {
   "ja": ja,
   "zh-cn": zhCn,
   "zh-tw": zhTw,
+  "fr": fr,
 };
 
 if (languages.includes(language)) {

@@ -1,11 +1,11 @@
 export default {
   site: {
-    title: "My Blog",
-    subtitle: "My Blog Subtitle",
-    description: "D-Sketon's blog",
-    keywords: "D-Sketon, blog, astro, theme",
-    author: "D-Sketon",
-    language: "zh-CN",
+    title: "Penda xl Blog",
+    subtitle: "Ash",
+    description: "Penda xl's blog",
+    keywords: "Dash, blog, astro, theme",
+    author: "Penda xl",
+    language: "fr",
   },
 
   sidebar: {
@@ -58,14 +58,14 @@ export default {
 
   social: {
     // email: mailto:xxx@gmail.com
-    github: "https://github.com/yourname",
-    google: "https://plus.google.com/yourname",
-    twitter: "https://twitter.com/yourname",
-    facebook: "https://www.facebook.com/yourname",
+    github: "https://github.com/Ashzzzy",
+    // google: "https://plus.google.com/yourname",
+    // twitter: "https://twitter.com/yourname",
+    // facebook: "https://www.facebook.com/yourname",
     // instagram: https://www.instagram.com/yourname
     // linkedin: https://www.linkedin.com/in/yourname
     // pinterest: https://www.pinterest.com/yourname
-    // youtube: https://www.youtube.com/channel/yourname
+    youtube: "https://www.youtube.com/@Sunmayxl",
     // vimeo: https://vimeo.com/yourname
     // flickr: https://www.flickr.com/photos/yourname
     // dribbble: https://dribbble.com/yourname
@@ -79,7 +79,7 @@ export default {
     // deviantart: https://yourname.deviantart.com
     // keybase: https://keybase.io/yourname
     // telegram: https://t.me/yourname
-    // discord: https://discordapp.com/users/yourname
+    discord: "https://discordapp.com/users/yourname",
     // steam: https://steamcommunity.com/id/yourname
   },
 
@@ -132,11 +132,11 @@ export default {
 
   // https://giscus.app/zh-CN
   giscus: {
-    enable: false,
-    repo: "",
-    repoId: "",
-    category: "",
-    categoryId: "",
+    enable: true,
+    repo: "Ashzzzy/pendaxl-blog",
+    repoId: "R_kgDOR_abFg",
+    category: "General",
+    categoryId: "DIC_kwDOR_abFs4CjL8w",
     mapping: "pathname",
     strict: 0,
     reactionsEnabled: 1,
@@ -168,10 +168,17 @@ export default {
 
   friend: [
     {
-      name: "D-Sketon",
-      url: "https://d-sketon.github.io/",
-      desc: "Main Site with hexo-theme-reimu",
-      avatar: "https://d-sketon.github.io/avatar/avatar.webp",
+      name: "Penda xl",
+      url: "https://github.com/Ashzzzy",
+      desc: "Developer mod, artist, content creator.",
+      avatar: "/images/avatar.webp",
+    },
+
+    {
+      name: "Zetsukae",
+      url: "https://github.com/Zetsukae",
+      desc: "Developer, artist, content creator.",
+      avatar: "/images/zetsukae.webp",
     },
   ],
 
